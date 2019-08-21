@@ -1,0 +1,520 @@
+[2019/08/21 09:49:41 CST] [INFO] [72754] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider starts!
+[2019/08/21 09:49:41 CST] [INFO] [72754] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider version: 1.10.0
+[2019/08/21 09:49:41 CST] [INFO] [72754] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 09:49:41 CST] [INFO] [72754] (goodcoder/pkg/util.LogUsefulMessage:41) mini_spider logPath: ./log
+[2019/08/21 09:49:41 CST] [INFO] [72754] (goodcoder/pkg/util.LogUsefulMessage:42) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 09:49:41 CST] [INFO] [72754] (goodcoder/pkg/util.LogUsefulMessage:43) mini_spider OutputDirectory: ./output
+[2019/08/21 09:49:41 CST] [INFO] [72754] (goodcoder/pkg/util.LogUsefulMessage:44) mini_spider MaxDepth: 1
+[2019/08/21 09:49:41 CST] [INFO] [72754] (goodcoder/pkg/util.LogUsefulMessage:45) mini_spider CrawlTimeout: 1
+[2019/08/21 09:49:41 CST] [INFO] [72754] (goodcoder/pkg/util.LogUsefulMessage:46) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 09:49:41 CST] [INFO] [72754] (goodcoder/pkg/util.LogUsefulMessage:47) mini_spider SthreadCount: 8
+[2019/08/21 09:49:41 CST] [INFO] [72754] (goodcoder/pkg/core.NewMiniSpider:27) NewMiniSpider starts!
+[2019/08/21 09:49:41 CST] [INFO] [72754] (goodcoder/pkg/core.NewMiniSpider:54) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/21 09:49:41 CST] [INFO] [72754] (goodcoder/pkg/core.(*Worker).Start:51) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 09:49:41 CST] [EROR] [72754] (goodcoder/pkg/util.SaveToDisk:19) ReadAll http body error: http: read on closed response body
+[2019/08/21 09:49:41 CST] [EROR] [72754] (goodcoder/pkg/core.(*Worker).Start:69) SaveToDisk error, http: read on closed response body
+[2019/08/21 09:49:42 CST] [INFO] [72754] (goodcoder/pkg/core.(*Worker).Start:51) get new urltaskettse: 662 w.rege: .*.(htm|html)$
+[2019/08/21 09:51:57 CST] [INFO] [73050] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider starts!
+[2019/08/21 09:51:57 CST] [INFO] [73050] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider version: 1.10.0
+[2019/08/21 09:51:57 CST] [INFO] [73050] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 09:51:57 CST] [INFO] [73050] (goodcoder/pkg/util.LogUsefulMessage:41) mini_spider logPath: ./log
+[2019/08/21 09:51:57 CST] [INFO] [73050] (goodcoder/pkg/util.LogUsefulMessage:42) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 09:51:57 CST] [INFO] [73050] (goodcoder/pkg/util.LogUsefulMessage:43) mini_spider OutputDirectory: ./output
+[2019/08/21 09:51:57 CST] [INFO] [73050] (goodcoder/pkg/util.LogUsefulMessage:44) mini_spider MaxDepth: 1
+[2019/08/21 09:51:57 CST] [INFO] [73050] (goodcoder/pkg/util.LogUsefulMessage:45) mini_spider CrawlTimeout: 1
+[2019/08/21 09:51:57 CST] [INFO] [73050] (goodcoder/pkg/util.LogUsefulMessage:46) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 09:51:57 CST] [INFO] [73050] (goodcoder/pkg/util.LogUsefulMessage:47) mini_spider SthreadCount: 8
+[2019/08/21 09:51:57 CST] [INFO] [73050] (goodcoder/pkg/core.NewMiniSpider:27) NewMiniSpider starts!
+[2019/08/21 09:51:57 CST] [INFO] [73050] (goodcoder/pkg/core.NewMiniSpider:54) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/21 09:51:57 CST] [INFO] [73050] (goodcoder/pkg/core.(*Worker).Start:70) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 09:51:57 CST] [EROR] [73050] (goodcoder/pkg/util.SaveToDisk:19) ReadAll http body error: http: read on closed response body
+[2019/08/21 09:51:57 CST] [EROR] [73050] (goodcoder/pkg/core.(*Worker).Start:88) SaveToDisk error, http: read on closed response body
+[2019/08/21 09:51:57 CST] [INFO] [73050] (goodcoder/pkg/core.(*Worker).Start:70) get new urltaskettse: 661 w.rege: .*.(htm|html)$
+[2019/08/21 09:51:57 CST] [EROR] [73050] (goodcoder/pkg/util.SaveToDisk:19) ReadAll http body error: http: read on closed response body
+[2019/08/21 09:51:57 CST] [EROR] [73050] (goodcoder/pkg/core.(*Worker).Start:88) SaveToDisk error, http: read on closed response body
+[2019/08/21 09:57:17 CST] [INFO] [73467] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider starts!
+[2019/08/21 09:57:17 CST] [INFO] [73467] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider version: 1.10.0
+[2019/08/21 09:57:17 CST] [INFO] [73467] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 09:57:17 CST] [INFO] [73467] (goodcoder/pkg/util.LogUsefulMessage:41) mini_spider logPath: ./log
+[2019/08/21 09:57:17 CST] [INFO] [73467] (goodcoder/pkg/util.LogUsefulMessage:42) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 09:57:17 CST] [INFO] [73467] (goodcoder/pkg/util.LogUsefulMessage:43) mini_spider OutputDirectory: ./output
+[2019/08/21 09:57:17 CST] [INFO] [73467] (goodcoder/pkg/util.LogUsefulMessage:44) mini_spider MaxDepth: 1
+[2019/08/21 09:57:17 CST] [INFO] [73467] (goodcoder/pkg/util.LogUsefulMessage:45) mini_spider CrawlTimeout: 1
+[2019/08/21 09:57:17 CST] [INFO] [73467] (goodcoder/pkg/util.LogUsefulMessage:46) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 09:57:17 CST] [INFO] [73467] (goodcoder/pkg/util.LogUsefulMessage:47) mini_spider SthreadCount: 8
+[2019/08/21 09:57:17 CST] [INFO] [73467] (goodcoder/pkg/core.NewMiniSpider:27) NewMiniSpider starts!
+[2019/08/21 09:57:17 CST] [INFO] [73467] (goodcoder/pkg/core.NewMiniSpider:54) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/21 09:57:17 CST] [INFO] [73467] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 09:57:17 CST] [INFO] [73467] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 662 w.rege: .*.(htm|html)$
+[2019/08/21 09:57:18 CST] [EROR] [73467] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get http://m.sina.com.cn/m/sinahome.shtml: net/http: request canceled (Client.Timeout exceeded while awaiting headers), url: http://m.sina.com.cn/m/sinahome.shtml
+[2019/08/21 10:01:49 CST] [INFO] [74230] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 10:01:49 CST] [INFO] [74230] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 10:01:49 CST] [INFO] [74230] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 10:01:49 CST] [INFO] [74230] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 10:01:49 CST] [INFO] [74230] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 10:01:49 CST] [INFO] [74230] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 10:01:49 CST] [INFO] [74230] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 1
+[2019/08/21 10:01:49 CST] [INFO] [74230] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 10:01:49 CST] [INFO] [74230] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 10:01:49 CST] [INFO] [74230] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 10:01:49 CST] [INFO] [74230] (goodcoder/pkg/core.NewMiniSpider:27) NewMiniSpider starts!
+[2019/08/21 10:01:49 CST] [INFO] [74230] (goodcoder/pkg/core.NewMiniSpider:54) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/21 10:01:49 CST] [INFO] [74230] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 10:01:50 CST] [EROR] [74230] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://www.sina.com.cn/: net/http: request canceled (Client.Timeout exceeded while awaiting headers), url: http://www.sina.com.cn
+[2019/08/21 10:01:50 CST] [INFO] [74230] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:01:50 CST] [INFO] [74230] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:01:50 CST] [INFO] [74230] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:01:50 CST] [INFO] [74230] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:02:36 CST] [INFO] [74352] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 10:02:36 CST] [INFO] [74352] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 10:02:36 CST] [INFO] [74352] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 10:02:36 CST] [INFO] [74352] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 10:02:36 CST] [INFO] [74352] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 10:02:36 CST] [INFO] [74352] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 10:02:36 CST] [INFO] [74352] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 1
+[2019/08/21 10:02:36 CST] [INFO] [74352] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 10:02:36 CST] [INFO] [74352] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 10:02:36 CST] [INFO] [74352] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 10:02:36 CST] [INFO] [74352] (goodcoder/pkg/core.NewMiniSpider:27) NewMiniSpider starts!
+[2019/08/21 10:02:36 CST] [INFO] [74352] (goodcoder/pkg/core.NewMiniSpider:54) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/21 10:02:36 CST] [INFO] [74352] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 10:02:37 CST] [INFO] [74352] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 662 w.rege: .*.(htm|html)$
+[2019/08/21 10:05:58 CST] [INFO] [74628] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 10:05:58 CST] [INFO] [74628] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 10:05:58 CST] [INFO] [74628] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 10:05:58 CST] [INFO] [74628] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 10:05:58 CST] [INFO] [74628] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 10:05:58 CST] [INFO] [74628] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 10:05:58 CST] [INFO] [74628] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 1
+[2019/08/21 10:05:58 CST] [INFO] [74628] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 10:05:58 CST] [INFO] [74628] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 10:05:58 CST] [INFO] [74628] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 10:05:58 CST] [INFO] [74628] (goodcoder/pkg/core.NewMiniSpider:28) NewMiniSpider starts!
+[2019/08/21 10:05:58 CST] [INFO] [74628] (goodcoder/pkg/core.NewMiniSpider:55) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/21 10:05:59 CST] [INFO] [74628] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 10:06:00 CST] [INFO] [74628] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 662 w.rege: .*.(htm|html)$
+[2019/08/21 10:06:37 CST] [INFO] [74754] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 10:06:37 CST] [INFO] [74754] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 10:06:37 CST] [INFO] [74754] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 10:06:37 CST] [INFO] [74754] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 10:06:37 CST] [INFO] [74754] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 10:06:37 CST] [INFO] [74754] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 10:06:37 CST] [INFO] [74754] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 1
+[2019/08/21 10:06:37 CST] [INFO] [74754] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 10:06:37 CST] [INFO] [74754] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 10:06:37 CST] [INFO] [74754] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 10:06:38 CST] [INFO] [74754] (goodcoder/pkg/core.NewMiniSpider:28) NewMiniSpider starts!
+[2019/08/21 10:06:38 CST] [INFO] [74754] (goodcoder/pkg/core.NewMiniSpider:55) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/21 10:06:39 CST] [INFO] [74754] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 10:06:40 CST] [INFO] [74754] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 662 w.rege: .*.(htm|html)$
+[2019/08/21 10:08:28 CST] [INFO] [74919] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 10:08:28 CST] [INFO] [74919] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 10:08:28 CST] [INFO] [74919] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 10:08:28 CST] [INFO] [74919] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 10:08:28 CST] [INFO] [74919] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 10:08:28 CST] [INFO] [74919] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 10:08:28 CST] [INFO] [74919] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 2
+[2019/08/21 10:08:28 CST] [INFO] [74919] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 10:08:28 CST] [INFO] [74919] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 10:08:28 CST] [INFO] [74919] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 10:08:28 CST] [INFO] [74919] (goodcoder/pkg/core.NewMiniSpider:28) NewMiniSpider starts!
+[2019/08/21 10:08:28 CST] [INFO] [74919] (goodcoder/pkg/core.NewMiniSpider:55) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/21 10:08:29 CST] [INFO] [74919] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 10:08:30 CST] [INFO] [74919] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 662 w.rege: .*.(htm|html)$
+[2019/08/21 10:08:31 CST] [INFO] [74919] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:08:32 CST] [INFO] [74919] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 1 w.rege: .*.(htm|html)$
+[2019/08/21 10:08:33 CST] [INFO] [74919] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:08:34 CST] [INFO] [74919] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:08:35 CST] [INFO] [74919] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:09:15 CST] [INFO] [74956] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 10:09:15 CST] [INFO] [74956] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 10:09:15 CST] [INFO] [74956] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 10:09:15 CST] [INFO] [74956] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 10:09:15 CST] [INFO] [74956] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 10:09:15 CST] [INFO] [74956] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 10:09:15 CST] [INFO] [74956] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 3
+[2019/08/21 10:09:15 CST] [INFO] [74956] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 10:09:15 CST] [INFO] [74956] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 10:09:15 CST] [INFO] [74956] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 10:09:15 CST] [INFO] [74956] (goodcoder/pkg/core.NewMiniSpider:28) NewMiniSpider starts!
+[2019/08/21 10:09:15 CST] [INFO] [74956] (goodcoder/pkg/core.NewMiniSpider:55) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/21 10:09:16 CST] [INFO] [74956] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 10:09:16 CST] [EROR] [74956] (goodcoder/pkg/util.SaveToDisk:24) WriteFile error: open output/http%3A%2F%2Fwww.baidu.com: no such file or directory
+[2019/08/21 10:09:16 CST] [EROR] [74956] (goodcoder/pkg/core.(*Worker).Start:76) SaveToDisk error, open output/http%3A%2F%2Fwww.baidu.com: no such file or directory
+[2019/08/21 10:09:17 CST] [INFO] [74956] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 662 w.rege: .*.(htm|html)$
+[2019/08/21 10:09:17 CST] [EROR] [74956] (goodcoder/pkg/util.SaveToDisk:24) WriteFile error: open output/http%3A%2F%2Fwww.sina.com.cn: no such file or directory
+[2019/08/21 10:09:17 CST] [EROR] [74956] (goodcoder/pkg/core.(*Worker).Start:76) SaveToDisk error, open output/http%3A%2F%2Fwww.sina.com.cn: no such file or directory
+[2019/08/21 10:09:18 CST] [INFO] [74956] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:09:18 CST] [EROR] [74956] (goodcoder/pkg/util.SaveToDisk:24) WriteFile error: open output/http%3A%2F%2Fwww.baidu.com%2Fgaoji%2Fpreferences.html: no such file or directory
+[2019/08/21 10:09:18 CST] [EROR] [74956] (goodcoder/pkg/core.(*Worker).Start:76) SaveToDisk error, open output/http%3A%2F%2Fwww.baidu.com%2Fgaoji%2Fpreferences.html: no such file or directory
+[2019/08/21 10:09:19 CST] [INFO] [74956] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 1 w.rege: .*.(htm|html)$
+[2019/08/21 10:09:19 CST] [EROR] [74956] (goodcoder/pkg/util.SaveToDisk:24) WriteFile error: open output/http%3A%2F%2Fwww.baidu.com%2Fcache%2Fsethelp%2Fhelp.html: no such file or directory
+[2019/08/21 10:09:19 CST] [EROR] [74956] (goodcoder/pkg/core.(*Worker).Start:76) SaveToDisk error, open output/http%3A%2F%2Fwww.baidu.com%2Fcache%2Fsethelp%2Fhelp.html: no such file or directory
+[2019/08/21 10:09:20 CST] [INFO] [74956] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:09:20 CST] [EROR] [74956] (goodcoder/pkg/util.SaveToDisk:24) WriteFile error: open output/http%3A%2F%2Fm.sina.com.cn%2Fm%2Fsinahome.shtml: no such file or directory
+[2019/08/21 10:09:20 CST] [EROR] [74956] (goodcoder/pkg/core.(*Worker).Start:76) SaveToDisk error, open output/http%3A%2F%2Fm.sina.com.cn%2Fm%2Fsinahome.shtml: no such file or directory
+[2019/08/21 10:09:21 CST] [INFO] [74956] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:09:21 CST] [EROR] [74956] (goodcoder/pkg/util.SaveToDisk:24) WriteFile error: open output/http%3A%2F%2Ffinance.sina.com.cn%2Fmobile%2Fcomfinanceweb.shtml: no such file or directory
+[2019/08/21 10:09:21 CST] [EROR] [74956] (goodcoder/pkg/core.(*Worker).Start:76) SaveToDisk error, open output/http%3A%2F%2Ffinance.sina.com.cn%2Fmobile%2Fcomfinanceweb.shtml: no such file or directory
+[2019/08/21 10:09:22 CST] [INFO] [74956] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:09:22 CST] [EROR] [74956] (goodcoder/pkg/util.SaveToDisk:24) WriteFile error: open output/http%3A%2F%2Fm.sina.com.cn%2Fm%2Fsinasports.shtml: no such file or directory
+[2019/08/21 10:09:22 CST] [EROR] [74956] (goodcoder/pkg/core.(*Worker).Start:76) SaveToDisk error, open output/http%3A%2F%2Fm.sina.com.cn%2Fm%2Fsinasports.shtml: no such file or directory
+[2019/08/21 10:09:57 CST] [INFO] [74978] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 10:09:57 CST] [INFO] [74978] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 10:09:57 CST] [INFO] [74978] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 10:09:57 CST] [INFO] [74978] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 10:09:57 CST] [INFO] [74978] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 10:09:57 CST] [INFO] [74978] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 10:09:57 CST] [INFO] [74978] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 3
+[2019/08/21 10:09:57 CST] [INFO] [74978] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 10:09:57 CST] [INFO] [74978] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 10:09:57 CST] [INFO] [74978] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 10:09:57 CST] [INFO] [74978] (goodcoder/pkg/core.NewMiniSpider:28) NewMiniSpider starts!
+[2019/08/21 10:09:57 CST] [INFO] [74978] (goodcoder/pkg/core.NewMiniSpider:55) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/21 10:09:58 CST] [INFO] [74978] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 10:09:59 CST] [INFO] [74978] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 662 w.rege: .*.(htm|html)$
+[2019/08/21 10:10:00 CST] [INFO] [74978] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:10:01 CST] [INFO] [74978] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 1 w.rege: .*.(htm|html)$
+[2019/08/21 10:10:02 CST] [INFO] [74978] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:10:03 CST] [INFO] [74978] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:10:04 CST] [INFO] [74978] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:11:04 CST] [INFO] [75114] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 10:11:04 CST] [INFO] [75114] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 10:11:04 CST] [INFO] [75114] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 10:11:04 CST] [INFO] [75114] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 10:11:04 CST] [INFO] [75114] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 10:11:04 CST] [INFO] [75114] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 10:11:04 CST] [INFO] [75114] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 3
+[2019/08/21 10:11:04 CST] [INFO] [75114] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 10:11:04 CST] [INFO] [75114] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 10:11:04 CST] [INFO] [75114] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 10:11:04 CST] [INFO] [75114] (goodcoder/pkg/core.NewMiniSpider:28) NewMiniSpider starts!
+[2019/08/21 10:11:04 CST] [INFO] [75114] (goodcoder/pkg/core.NewMiniSpider:55) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/21 10:11:05 CST] [INFO] [75114] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 10:11:07 CST] [INFO] [75114] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 662 w.rege: .*.(htm|html)$
+[2019/08/21 10:11:07 CST] [INFO] [75114] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:11:08 CST] [INFO] [75114] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 1 w.rege: .*.(htm|html)$
+[2019/08/21 10:11:09 CST] [INFO] [75114] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:11:10 CST] [INFO] [75114] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:11:11 CST] [INFO] [75114] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:12:31 CST] [INFO] [75199] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 10:12:31 CST] [INFO] [75199] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 10:12:31 CST] [INFO] [75199] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 10:12:31 CST] [INFO] [75199] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 10:12:31 CST] [INFO] [75199] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 10:12:31 CST] [INFO] [75199] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 10:12:31 CST] [INFO] [75199] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 3
+[2019/08/21 10:12:31 CST] [INFO] [75199] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 10:12:31 CST] [INFO] [75199] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 10:12:31 CST] [INFO] [75199] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 10:12:31 CST] [INFO] [75199] (goodcoder/pkg/core.NewMiniSpider:27) NewMiniSpider starts!
+[2019/08/21 10:12:31 CST] [INFO] [75199] (goodcoder/pkg/core.NewMiniSpider:54) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/21 10:12:31 CST] [INFO] [75199] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 10:12:32 CST] [INFO] [75199] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 663 w.rege: .*.(htm|html)$
+[2019/08/21 10:12:32 CST] [INFO] [75199] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:12:32 CST] [INFO] [75199] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 1 w.rege: .*.(htm|html)$
+[2019/08/21 10:12:32 CST] [INFO] [75199] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:12:32 CST] [INFO] [75199] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:12:32 CST] [INFO] [75199] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:12:32 CST] [INFO] [75199] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:19 CST] [INFO] [75407] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 10:14:19 CST] [INFO] [75407] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 10:14:19 CST] [INFO] [75407] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 10:14:19 CST] [INFO] [75407] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 10:14:19 CST] [INFO] [75407] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 10:14:19 CST] [INFO] [75407] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 10:14:19 CST] [INFO] [75407] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 3
+[2019/08/21 10:14:19 CST] [INFO] [75407] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 10:14:19 CST] [INFO] [75407] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 10:14:19 CST] [INFO] [75407] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 10:14:19 CST] [INFO] [75407] (goodcoder/pkg/core.NewMiniSpider:28) NewMiniSpider starts!
+[2019/08/21 10:14:19 CST] [INFO] [75407] (goodcoder/pkg/core.NewMiniSpider:55) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/21 10:14:20 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:22 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 663 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:22 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:23 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 1 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:24 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:25 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:26 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:27 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:28 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:29 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:30 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:31 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 7 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:33 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 339 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:33 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 22 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:34 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 22 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:35 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 15 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:36 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 15 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:37 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 15 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:38 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:39 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:40 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:41 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:42 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:43 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:44 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:45 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:46 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:47 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:48 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:49 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:50 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:52 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:52 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:54 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:54 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:55 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:56 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:57 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 13 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:58 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 11 w.rege: .*.(htm|html)$
+[2019/08/21 10:14:59 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 11 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:00 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 538 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:01 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 10 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:02 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 11 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:03 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 40 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:04 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 42 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:05 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 41 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:06 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 40 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:07 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 41 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:09 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 41 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:09 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 42 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:10 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 41 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:11 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 41 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:12 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 41 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:13 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 41 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:14 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 42 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:15 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 41 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:16 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 42 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:17 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:18 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 138 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:19 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 138 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:20 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 129 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:21 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 137 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:22 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:23 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 18 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:24 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 39 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:25 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 13 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:26 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:27 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:28 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:29 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:30 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:31 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 10 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:32 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:33 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 47 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:34 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 47 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:35 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:36 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:38 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 46 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:38 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 47 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:39 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 47 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:40 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 135 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:41 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 29 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:42 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 30 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:43 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:44 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:45 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 23 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:46 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:47 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 40 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:48 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 145 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:49 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:50 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 149 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:51 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:53 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 6 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:53 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 19 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:54 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 21 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:55 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:57 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:15:57 CST] [EROR] [75407] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_100_1_6969.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_100_1_6969.html
+[2019/08/21 10:15:58 CST] [EROR] [75407] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_101_2_6966.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_101_2_6966.html
+[2019/08/21 10:15:59 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 9 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:00 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 9 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:01 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 26 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:02 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 13 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:03 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 16 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:04 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 16 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:05 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 16 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:06 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 9 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:07 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:08 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 16 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:09 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 15 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:10 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 147 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:11 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:12 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:13 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:14 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:15 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:16 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 47 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:17 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 46 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:18 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 46 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:19 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 47 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:20 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 47 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:21 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 46 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:22 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 46 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:23 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 47 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:24 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 0 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:25 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 29 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:27 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 29 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:28 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 29 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:28 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 29 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:29 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 29 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:30 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 23 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:32 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:32 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 23 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:33 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 24 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:34 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 42 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:35 CST] [EROR] [75407] (goodcoder/pkg/url.GetResolveReference:71) resolveReference url[ http://blog.sina.com.cn/s/blog_7d75a1df0102xt7u.html]: parse  http://blog.sina.com.cn/s/blog_7d75a1df0102xt7u.html: first path segment in URL cannot contain colon
+[2019/08/21 10:16:35 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 6 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:36 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 9 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:37 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:38 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 140 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:39 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 145 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:40 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 145 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:41 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 149 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:42 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 149 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:43 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 149 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:44 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:45 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 21 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:46 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:47 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:48 CST] [EROR] [75407] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_100_1_6963.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_100_1_6963.html
+[2019/08/21 10:16:49 CST] [EROR] [75407] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_103_1_6982.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_103_1_6982.html
+[2019/08/21 10:16:50 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:51 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:52 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:53 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:54 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:55 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:56 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:57 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 14 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:58 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 37 w.rege: .*.(htm|html)$
+[2019/08/21 10:16:59 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 21 w.rege: .*.(htm|html)$
+[2019/08/21 10:17:00 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 21 w.rege: .*.(htm|html)$
+[2019/08/21 10:17:01 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 5 w.rege: .*.(htm|html)$
+[2019/08/21 10:17:02 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 29 w.rege: .*.(htm|html)$
+[2019/08/21 10:17:03 CST] [INFO] [75407] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 29 w.rege: .*.(htm|html)$
+[2019/08/21 10:17:45 CST] [INFO] [75624] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 10:17:45 CST] [INFO] [75624] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 10:17:45 CST] [INFO] [75624] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 10:17:45 CST] [INFO] [75624] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 10:17:45 CST] [INFO] [75624] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 10:17:45 CST] [INFO] [75624] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 10:17:45 CST] [INFO] [75624] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 1
+[2019/08/21 10:17:45 CST] [INFO] [75624] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 10:17:45 CST] [INFO] [75624] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 10:17:45 CST] [INFO] [75624] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 10:17:45 CST] [INFO] [75624] (goodcoder/pkg/core.NewMiniSpider:28) NewMiniSpider starts!
+[2019/08/21 10:17:45 CST] [INFO] [75624] (goodcoder/pkg/core.NewMiniSpider:55) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/21 10:17:46 CST] [INFO] [75624] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 10:17:48 CST] [INFO] [75624] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 663 w.rege: .*.(htm|html)$
+[2019/08/21 10:19:23 CST] [EROR] [75624] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_100_1_6969.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_100_1_6969.html
+[2019/08/21 10:19:24 CST] [EROR] [75624] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_101_2_6966.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_101_2_6966.html
+[2019/08/21 10:20:14 CST] [EROR] [75624] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_100_1_6963.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_100_1_6963.html
+[2019/08/21 10:20:15 CST] [EROR] [75624] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_103_1_6982.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_103_1_6982.html
+[2019/08/21 10:22:13 CST] [INFO] [75987] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 10:22:13 CST] [INFO] [75987] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 10:22:13 CST] [INFO] [75987] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 10:22:13 CST] [INFO] [75987] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 10:22:13 CST] [INFO] [75987] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 10:22:13 CST] [INFO] [75987] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 10:22:13 CST] [INFO] [75987] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 1
+[2019/08/21 10:22:13 CST] [INFO] [75987] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 10:22:13 CST] [INFO] [75987] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 10:22:13 CST] [INFO] [75987] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 10:22:13 CST] [EROR] [75987] (goodcoder/pkg/url.GetUrlFromFile:43) Unmarshal error, err: invalid character ']' looking for beginning of value
+[2019/08/21 10:22:13 CST] [INFO] [75987] (goodcoder/pkg/core.NewMiniSpider:28) NewMiniSpider starts!
+[2019/08/21 10:22:13 CST] [INFO] [75987] (goodcoder/pkg/core.NewMiniSpider:55) NewMiniSpider ends! get syncQueue: &{{0 0} [] true}
+[2019/08/21 10:22:14 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:15 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:16 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:17 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:18 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:19 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:20 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:21 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:22 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:23 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:24 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:25 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:26 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:27 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:28 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:29 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:30 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:31 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:32 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:33 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:34 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:35 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:36 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:37 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:38 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:39 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:40 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:41 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:42 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:43 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:44 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:45 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:46 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:47 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:48 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:49 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:50 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:51 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:52 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:53 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 10:22:54 CST] [INFO] [75987] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!
+[2019/08/21 14:18:06 CST] [INFO] [87226] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 14:18:06 CST] [INFO] [87226] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 14:18:06 CST] [INFO] [87226] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 14:18:06 CST] [INFO] [87226] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 14:18:06 CST] [INFO] [87226] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 14:18:06 CST] [INFO] [87226] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 14:18:06 CST] [INFO] [87226] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 1
+[2019/08/21 14:18:06 CST] [INFO] [87226] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 14:18:06 CST] [INFO] [87226] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 14:18:06 CST] [INFO] [87226] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 14:18:06 CST] [EROR] [87226] (goodcoder/pkg/url.GetUrlFromFile:43) Unmarshal error, err: invalid character ']' looking for beginning of value
+[2019/08/21 14:18:06 CST] [INFO] [87226] (goodcoder/pkg/core.NewMiniSpider:27) NewMiniSpider starts!
+[2019/08/21 14:18:06 CST] [INFO] [87226] (goodcoder/pkg/core.NewMiniSpider:54) NewMiniSpider ends! get syncQueue: &{{0 0} [] true}
+[2019/08/21 14:18:06 CST] [INFO] [87226] (goodcoder/pkg/core.(*MiniSpider).Start:61) NewMiniSpider test: 0
+[2019/08/21 14:18:09 CST] [INFO] [87226] (goodcoder/pkg/core.(*Worker).Start:34) all jobs are done!
+[2019/08/21 14:22:09 CST] [INFO] [87625] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 14:22:09 CST] [INFO] [87625] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 14:22:09 CST] [INFO] [87625] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 14:22:09 CST] [INFO] [87625] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 14:22:09 CST] [INFO] [87625] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 14:22:09 CST] [INFO] [87625] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 14:22:09 CST] [INFO] [87625] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 1
+[2019/08/21 14:22:09 CST] [INFO] [87625] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 14:22:09 CST] [INFO] [87625] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 14:22:09 CST] [INFO] [87625] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 14:22:35 CST] [INFO] [87646] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 14:22:35 CST] [INFO] [87646] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 14:22:35 CST] [INFO] [87646] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 14:22:35 CST] [INFO] [87646] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 14:22:35 CST] [INFO] [87646] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 14:22:35 CST] [INFO] [87646] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 14:22:35 CST] [INFO] [87646] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 1
+[2019/08/21 14:22:35 CST] [INFO] [87646] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 14:22:35 CST] [INFO] [87646] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 14:22:35 CST] [INFO] [87646] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 14:22:35 CST] [INFO] [87646] (goodcoder/pkg/core.NewMiniSpider:24) NewMiniSpider starts!
+[2019/08/21 14:22:35 CST] [INFO] [87646] (goodcoder/pkg/core.NewMiniSpider:51) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0}] true}
+[2019/08/21 14:22:46 CST] [INFO] [87667] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 14:22:58 CST] [INFO] [87721] (goodcoder/pkg/util.LogUsefulMessage:31) mini_spider starts!
+[2019/08/21 14:22:58 CST] [INFO] [87721] (goodcoder/pkg/util.LogUsefulMessage:32) mini_spider version: 1.10.0
+[2019/08/21 14:22:58 CST] [INFO] [87721] (goodcoder/pkg/util.LogUsefulMessage:33) mini_spider confFile: ./conf/spider.conf
+[2019/08/21 14:22:58 CST] [INFO] [87721] (goodcoder/pkg/util.LogUsefulMessage:34) mini_spider logPath: ./log
+[2019/08/21 14:22:58 CST] [INFO] [87721] (goodcoder/pkg/util.LogUsefulMessage:35) mini_spider UrlListFile: ./data/url.data
+[2019/08/21 14:22:58 CST] [INFO] [87721] (goodcoder/pkg/util.LogUsefulMessage:36) mini_spider OutputDirectory: ./output
+[2019/08/21 14:22:58 CST] [INFO] [87721] (goodcoder/pkg/util.LogUsefulMessage:37) mini_spider MaxDepth: 1
+[2019/08/21 14:22:58 CST] [INFO] [87721] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider CrawlTimeout: 1
+[2019/08/21 14:22:58 CST] [INFO] [87721] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/21 14:22:58 CST] [INFO] [87721] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider SthreadCount: 8
+[2019/08/21 14:22:58 CST] [INFO] [87721] (goodcoder/pkg/core.NewMiniSpider:24) NewMiniSpider starts!
+[2019/08/21 14:22:58 CST] [INFO] [87721] (goodcoder/pkg/core.NewMiniSpider:51) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0}] true}
+[2019/08/21 14:22:58 CST] [INFO] [87721] (goodcoder/pkg/core.(*Worker).Start:58) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/21 14:22:58 CST] [INFO] [87721] (goodcoder/pkg/core.(*Worker).Start:33) all jobs are done!

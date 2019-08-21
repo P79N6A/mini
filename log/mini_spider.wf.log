@@ -1,0 +1,34 @@
+[2019/08/21 09:49:41 CST] [EROR] [72754] (goodcoder/pkg/util.SaveToDisk:19) ReadAll http body error: http: read on closed response body
+[2019/08/21 09:49:41 CST] [EROR] [72754] (goodcoder/pkg/core.(*Worker).Start:69) SaveToDisk error, http: read on closed response body
+[2019/08/21 09:51:57 CST] [EROR] [73050] (goodcoder/pkg/util.SaveToDisk:19) ReadAll http body error: http: read on closed response body
+[2019/08/21 09:51:57 CST] [EROR] [73050] (goodcoder/pkg/core.(*Worker).Start:88) SaveToDisk error, http: read on closed response body
+[2019/08/21 09:51:57 CST] [EROR] [73050] (goodcoder/pkg/util.SaveToDisk:19) ReadAll http body error: http: read on closed response body
+[2019/08/21 09:51:57 CST] [EROR] [73050] (goodcoder/pkg/core.(*Worker).Start:88) SaveToDisk error, http: read on closed response body
+[2019/08/21 09:57:18 CST] [EROR] [73467] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get http://m.sina.com.cn/m/sinahome.shtml: net/http: request canceled (Client.Timeout exceeded while awaiting headers), url: http://m.sina.com.cn/m/sinahome.shtml
+[2019/08/21 10:01:50 CST] [EROR] [74230] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://www.sina.com.cn/: net/http: request canceled (Client.Timeout exceeded while awaiting headers), url: http://www.sina.com.cn
+[2019/08/21 10:09:16 CST] [EROR] [74956] (goodcoder/pkg/util.SaveToDisk:24) WriteFile error: open output/http%3A%2F%2Fwww.baidu.com: no such file or directory
+[2019/08/21 10:09:16 CST] [EROR] [74956] (goodcoder/pkg/core.(*Worker).Start:76) SaveToDisk error, open output/http%3A%2F%2Fwww.baidu.com: no such file or directory
+[2019/08/21 10:09:17 CST] [EROR] [74956] (goodcoder/pkg/util.SaveToDisk:24) WriteFile error: open output/http%3A%2F%2Fwww.sina.com.cn: no such file or directory
+[2019/08/21 10:09:17 CST] [EROR] [74956] (goodcoder/pkg/core.(*Worker).Start:76) SaveToDisk error, open output/http%3A%2F%2Fwww.sina.com.cn: no such file or directory
+[2019/08/21 10:09:18 CST] [EROR] [74956] (goodcoder/pkg/util.SaveToDisk:24) WriteFile error: open output/http%3A%2F%2Fwww.baidu.com%2Fgaoji%2Fpreferences.html: no such file or directory
+[2019/08/21 10:09:18 CST] [EROR] [74956] (goodcoder/pkg/core.(*Worker).Start:76) SaveToDisk error, open output/http%3A%2F%2Fwww.baidu.com%2Fgaoji%2Fpreferences.html: no such file or directory
+[2019/08/21 10:09:19 CST] [EROR] [74956] (goodcoder/pkg/util.SaveToDisk:24) WriteFile error: open output/http%3A%2F%2Fwww.baidu.com%2Fcache%2Fsethelp%2Fhelp.html: no such file or directory
+[2019/08/21 10:09:19 CST] [EROR] [74956] (goodcoder/pkg/core.(*Worker).Start:76) SaveToDisk error, open output/http%3A%2F%2Fwww.baidu.com%2Fcache%2Fsethelp%2Fhelp.html: no such file or directory
+[2019/08/21 10:09:20 CST] [EROR] [74956] (goodcoder/pkg/util.SaveToDisk:24) WriteFile error: open output/http%3A%2F%2Fm.sina.com.cn%2Fm%2Fsinahome.shtml: no such file or directory
+[2019/08/21 10:09:20 CST] [EROR] [74956] (goodcoder/pkg/core.(*Worker).Start:76) SaveToDisk error, open output/http%3A%2F%2Fm.sina.com.cn%2Fm%2Fsinahome.shtml: no such file or directory
+[2019/08/21 10:09:21 CST] [EROR] [74956] (goodcoder/pkg/util.SaveToDisk:24) WriteFile error: open output/http%3A%2F%2Ffinance.sina.com.cn%2Fmobile%2Fcomfinanceweb.shtml: no such file or directory
+[2019/08/21 10:09:21 CST] [EROR] [74956] (goodcoder/pkg/core.(*Worker).Start:76) SaveToDisk error, open output/http%3A%2F%2Ffinance.sina.com.cn%2Fmobile%2Fcomfinanceweb.shtml: no such file or directory
+[2019/08/21 10:09:22 CST] [EROR] [74956] (goodcoder/pkg/util.SaveToDisk:24) WriteFile error: open output/http%3A%2F%2Fm.sina.com.cn%2Fm%2Fsinasports.shtml: no such file or directory
+[2019/08/21 10:09:22 CST] [EROR] [74956] (goodcoder/pkg/core.(*Worker).Start:76) SaveToDisk error, open output/http%3A%2F%2Fm.sina.com.cn%2Fm%2Fsinasports.shtml: no such file or directory
+[2019/08/21 10:15:57 CST] [EROR] [75407] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_100_1_6969.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_100_1_6969.html
+[2019/08/21 10:15:58 CST] [EROR] [75407] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_101_2_6966.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_101_2_6966.html
+[2019/08/21 10:16:35 CST] [EROR] [75407] (goodcoder/pkg/url.GetResolveReference:71) resolveReference url[ http://blog.sina.com.cn/s/blog_7d75a1df0102xt7u.html]: parse  http://blog.sina.com.cn/s/blog_7d75a1df0102xt7u.html: first path segment in URL cannot contain colon
+[2019/08/21 10:16:48 CST] [EROR] [75407] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_100_1_6963.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_100_1_6963.html
+[2019/08/21 10:16:49 CST] [EROR] [75407] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_103_1_6982.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_103_1_6982.html
+[2019/08/21 10:19:23 CST] [EROR] [75624] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_100_1_6969.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_100_1_6969.html
+[2019/08/21 10:19:24 CST] [EROR] [75624] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_101_2_6966.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_101_2_6966.html
+[2019/08/21 10:20:14 CST] [EROR] [75624] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_100_1_6963.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_100_1_6963.html
+[2019/08/21 10:20:15 CST] [EROR] [75624] (goodcoder/pkg/core.(*Worker).Start:46) http get error: Get https://med.sina.com/health/article_detail_103_1_6982.html: x509: certificate signed by unknown authority, url: https://med.sina.com/health/article_detail_103_1_6982.html
+[2019/08/21 10:22:13 CST] [EROR] [75987] (goodcoder/pkg/url.GetUrlFromFile:43) Unmarshal error, err: invalid character ']' looking for beginning of value
+[2019/08/21 14:18:06 CST] [EROR] [87226] (goodcoder/pkg/url.GetUrlFromFile:43) Unmarshal error, err: invalid character ']' looking for beginning of value
+[2019/08/21 14:22:09 CST] [EROR] [87625] (goodcoder/pkg/url.GetUrlFromFile:43) Unmarshal error, err: invalid character ']' looking for beginning of value

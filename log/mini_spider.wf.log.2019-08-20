@@ -1,0 +1,5 @@
+[2019/08/20 19:14:19 CST] [EROR] [40690] (goodcoder/pkg/util.SaveToDisk:19) ReadAll http body error: http: read on closed response body
+[2019/08/20 19:14:19 CST] [EROR] [40690] (goodcoder/pkg/core.(*Worker).Start:81) SaveToDisk error, http: read on closed response body
+[2019/08/20 19:14:19 CST] [EROR] [40690] (goodcoder/pkg/url.GetResolveReference:71) resolveReference url[ https://finance.sina.com.cn/chanjing/cyxw/2019-08-20/doc-ihytcitn0402235.shtml]: parse  https://finance.sina.com.cn/chanjing/cyxw/2019-08-20/doc-ihytcitn0402235.shtml: first path segment in URL cannot contain colon
+[2019/08/20 19:14:19 CST] [EROR] [40690] (goodcoder/pkg/util.SaveToDisk:19) ReadAll http body error: http: read on closed response body
+[2019/08/20 19:14:19 CST] [EROR] [40690] (goodcoder/pkg/core.(*Worker).Start:81) SaveToDisk error, http: read on closed response body

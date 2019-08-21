@@ -1,0 +1,19 @@
+[2019/08/20 19:14:19 CST] [INFO] [40690] (goodcoder/pkg/util.LogUsefulMessage:38) mini_spider starts!
+[2019/08/20 19:14:19 CST] [INFO] [40690] (goodcoder/pkg/util.LogUsefulMessage:39) mini_spider version: 1.10.0
+[2019/08/20 19:14:19 CST] [INFO] [40690] (goodcoder/pkg/util.LogUsefulMessage:40) mini_spider confFile: ./conf/spider.conf
+[2019/08/20 19:14:19 CST] [INFO] [40690] (goodcoder/pkg/util.LogUsefulMessage:41) mini_spider logPath: ./log
+[2019/08/20 19:14:19 CST] [INFO] [40690] (goodcoder/pkg/util.LogUsefulMessage:42) mini_spider UrlListFile: ./data/url.data
+[2019/08/20 19:14:19 CST] [INFO] [40690] (goodcoder/pkg/util.LogUsefulMessage:43) mini_spider OutputDirectory: ./output
+[2019/08/20 19:14:19 CST] [INFO] [40690] (goodcoder/pkg/util.LogUsefulMessage:44) mini_spider MaxDepth: 1
+[2019/08/20 19:14:19 CST] [INFO] [40690] (goodcoder/pkg/util.LogUsefulMessage:45) mini_spider CrawlTimeout: 1
+[2019/08/20 19:14:19 CST] [INFO] [40690] (goodcoder/pkg/util.LogUsefulMessage:46) mini_spider TargetUrl: .*.(htm|html)$
+[2019/08/20 19:14:19 CST] [INFO] [40690] (goodcoder/pkg/util.LogUsefulMessage:47) mini_spider SthreadCount: 8
+[2019/08/20 19:14:19 CST] [INFO] [40690] (goodcoder/pkg/core.NewMiniSpider:27) NewMiniSpider starts!
+[2019/08/20 19:14:19 CST] [INFO] [40690] (goodcoder/pkg/core.NewMiniSpider:54) NewMiniSpider ends! get syncQueue: &{{0 0} [{http://www.baidu.com 0} {http://www.sina.com.cn 0}] true}
+[2019/08/20 19:14:19 CST] [INFO] [40690] (goodcoder/pkg/core.(*Worker).Start:63) get new urltaskettse: 2 w.rege: .*.(htm|html)$
+[2019/08/20 19:14:19 CST] [EROR] [40690] (goodcoder/pkg/util.SaveToDisk:19) ReadAll http body error: http: read on closed response body
+[2019/08/20 19:14:19 CST] [EROR] [40690] (goodcoder/pkg/core.(*Worker).Start:81) SaveToDisk error, http: read on closed response body
+[2019/08/20 19:14:19 CST] [EROR] [40690] (goodcoder/pkg/url.GetResolveReference:71) resolveReference url[ https://finance.sina.com.cn/chanjing/cyxw/2019-08-20/doc-ihytcitn0402235.shtml]: parse  https://finance.sina.com.cn/chanjing/cyxw/2019-08-20/doc-ihytcitn0402235.shtml: first path segment in URL cannot contain colon
+[2019/08/20 19:14:19 CST] [INFO] [40690] (goodcoder/pkg/core.(*Worker).Start:63) get new urltaskettse: 676 w.rege: .*.(htm|html)$
+[2019/08/20 19:14:19 CST] [EROR] [40690] (goodcoder/pkg/util.SaveToDisk:19) ReadAll http body error: http: read on closed response body
+[2019/08/20 19:14:19 CST] [EROR] [40690] (goodcoder/pkg/core.(*Worker).Start:81) SaveToDisk error, http: read on closed response body
